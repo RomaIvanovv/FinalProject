@@ -1,0 +1,696 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.MainManu {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background: url(images/Bitmap.png) no-repeat center center;
+  background-size: cover;
+  background-color: #3b3636;
+  text-align: center;
+  padding: 47px 17%;
+}
+.MainManu header {
+  display: flex;
+  justify-content: space-between;
+}
+.MainManu header .Dream {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+}
+.MainManu header .Sing {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  margin-bottom: 148px;
+}
+.MainManu header p {
+  padding: 8px;
+}
+.MainManu header button {
+  width: 90px;
+  height: 36px;
+  border: 2px solid #FFFFFF;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 40px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.MainManu .TextCenter {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MainManu .TextCenter h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 29px;
+}
+.MainManu .TextCenter h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.MainManu .TextCenter button {
+  width: 225px;
+  height: 40px;
+  background: #FF4E50;
+  border-radius: 40px;
+  color: #FFFFFF;
+  border: 1px solid #FF4E50;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+main {
+  padding: 89px 17% 100px;
+}
+main .works {
+  text-align: center;
+  margin-bottom: 95px;
+}
+main h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #444444;
+  margin-bottom: 35px;
+}
+main .worksBOXS1 {
+  display: flex;
+  justify-content: space-between;
+}
+main .worksBox1, main .worksBox2, main .worksBox3 {
+  display: flex;
+  width: 32%;
+  padding: 254px 25px 21px 25px;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 5px;
+  background-blend-mode: darken;
+}
+main .worksBox1 {
+  background: rgba(0, 0, 0, 0.3) url(images/Bitmap\ \(2\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .worksBox2 {
+  background: rgba(0, 0, 0, 0.3) url(images/Bitmap\ \(3\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 282px;
+}
+main .worksBox3 {
+  background: rgba(0, 0, 0, 0.3) url(images/Bitmap\ \(1\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main button {
+  width: 70px;
+  height: 20px;
+  background: #FF4E50;
+  border-radius: 40px;
+  color: #FFFFFF;
+  border: 1px solid #FF4E50;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+}
+main h3 {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+main p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #E3E3E3;
+  font-size: 14px;
+}
+main .partner {
+  text-align: center;
+  margin-bottom: 95px;
+}
+main .partner h2 {
+  margin-bottom: 35px;
+}
+main .partner .partnerBOXS2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+main .partner .partnerBox1, main .partner .partnerBox2, main .partner .partnerBox3, main .partner .partnerBox4 {
+  width: 24%;
+}
+main .partner img {
+  border-radius: 50%;
+}
+main .partner .face {
+  position: relative;
+  margin-bottom: 17px;
+}
+main .partner .svg1, main .partner .svg2, main .partner .svg3, main .partner .svg4 {
+  position: absolute;
+  left: 63%;
+  top: 69%;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 3px solid white;
+  display: inline-block;
+}
+main .partner .svg1 {
+  background-color: #FF4E50;
+}
+main .partner .svg2 {
+  background-color: #19D4CA;
+}
+main .partner .svg3 {
+  background-color: #FFA710;
+}
+main .partner .svg4 {
+  background-color: #667DF3;
+}
+main .partner svg {
+  margin: 5px auto;
+}
+main .partner .svgPlane {
+  margin: 1px 0 0 3px;
+}
+main .partner h3 {
+  font-size: 14px;
+  color: #444444;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+main .partner p {
+  font-size: 14px;
+  color: #666666;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+main .partner button {
+  width: 210px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 2px solid #FF4E50;
+  box-sizing: border-box;
+  border-radius: 40px;
+  color: #FF4E50;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+main .ideas {
+  text-align: center;
+}
+main .ideas h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #444444;
+  font-size: 26px;
+}
+main .ideas .ideasContainer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 22px;
+}
+main .ideas .ideasContainer .ideasBOX1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box1, main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box2, main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box3 {
+  display: flex;
+  width: 32%;
+  height: 310px;
+  justify-content: center;
+  align-items: center;
+  background-blend-mode: darken;
+  border-radius: 5px;
+}
+main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box1 {
+  background: rgba(0, 0, 0, 0.3) url(images/Bitmap\ \(14\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box2 {
+  background: rgba(0, 0, 0, 0.3) url(images/Bitmap\ \(12\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box3 {
+  background: rgba(0, 0, 0, 0.3) url(images/Bitmap\ \(13\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .ideas .ideasContainer .ideasBOX2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+main .ideas .ideasContainer .ideasBOX2 .ideasBOX2-Box1, main .ideas .ideasContainer .ideasBOX2 .ideasBOX2-Box2 {
+  display: flex;
+  height: 310px;
+  justify-content: center;
+  align-items: center;
+  background-blend-mode: darken;
+  border-radius: 5px;
+}
+main .ideas .ideasContainer .ideasBOX2 .ideasBOX2-Box1 {
+  width: 32%;
+  background: rgba(0, 0, 0, 0.3) url(images/Bitmap\ \(11\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .ideas .ideasContainer .ideasBOX2 .ideasBOX2-Box2 {
+  width: 66%;
+  background: rgba(0, 0, 0, 0.3) url(images/Bitmap\ \(10\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .ideas .ideasContainer .ideasBOX3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 95px;
+}
+main .ideas .ideasContainer .ideasBOX3 .ideasBOX3-Box1, main .ideas .ideasContainer .ideasBOX3 .ideasBOX3-Box2 {
+  display: flex;
+  height: 310px;
+  justify-content: center;
+  align-items: center;
+  background-blend-mode: darken;
+  border-radius: 5px;
+}
+main .ideas .ideasContainer .ideasBOX3 .ideasBOX3-Box1 {
+  width: 66%;
+  background: rgba(0, 0, 0, 0.3) url(images/Bitmap\ \(9\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main .ideas .ideasContainer .ideasBOX3 .ideasBOX3-Box2 {
+  width: 32%;
+  background: rgba(0, 0, 0, 0.3) url(images/Bitmap\ \(8\).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main form {
+  text-align: center;
+}
+main form h2 {
+  margin-bottom: 43px;
+}
+main form h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #666666;
+  margin-bottom: 25px;
+}
+main form input {
+  width: 299px;
+  height: 40px;
+  border: 1px solid #D4D4D4;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-indent: 15px;
+}
+main form button {
+  width: 172px;
+  height: 40px;
+  background: #FF4E50;
+  border-radius: 40px;
+  color: #FFFFFF;
+  border: 1px solid #FF4E50;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+footer {
+  border-top: 2px solid #FF4E50;
+  padding: 36px 17% 0;
+}
+footer .areto {
+  display: flex;
+  justify-content: space-between;
+}
+footer .dreamshare {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FF4E50;
+}
+footer .company, footer .partners, footer h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #444444;
+}
+footer .company {
+  margin-bottom: 36px;
+}
+footer h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #999999;
+  line-height: 26px;
+}
+footer .h4-mrt-11 {
+  margin-top: 11px;
+}
+footer h3 {
+  font-size: 10px;
+  color: #CCCCCC;
+  text-align: right;
+  margin-bottom: 7px;
+}
+footer .by {
+  margin-left: 150px;
+}
+
+@media screen and (min-width: 1600px) {
+  .MainManu header .Sing {
+    margin-bottom: 300px;
+  }
+
+  .works .worksBox1, .works .worksBox2, .works .worksBox3 {
+    padding: 370px 25px 21px 25px;
+  }
+  .works .worksBox2 {
+    padding-top: 398px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .MainManu {
+    padding: 47px 12%;
+  }
+
+  main {
+    padding: 89px 12% 100px;
+  }
+
+  footer {
+    padding: 36px 12% 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .MainManu {
+    padding: 47px 5%;
+  }
+
+  main {
+    padding: 89px 1% 100px;
+  }
+
+  main .works {
+    margin-bottom: 36px;
+  }
+
+  .works h3 {
+    margin-bottom: 31px;
+    line-height: 14px;
+  }
+  .works button {
+    margin-bottom: 42px;
+  }
+  .works .worksBox1, .works .worksBox2, .works .worksBox3 {
+    padding: 205px 20px 16px 20px;
+  }
+  .works .worksBox2 {
+    padding: 255px 22px 16px 20px;
+  }
+  .works .worksBox2 button {
+    margin-bottom: 20px;
+  }
+
+  main .partner {
+    padding: 0 20%;
+  }
+
+  main h2 {
+    font-size: 22px;
+  }
+
+  main .partner .partnerBOXS2 {
+    flex-flow: wrap;
+  }
+
+  .partner .partnerBOXS2 .partnerBox1, .partner .partnerBOXS2 .partnerBox2, .partner .partnerBOXS2 .partnerBox3, .partner .partnerBOXS2 .partnerBox4 {
+    width: 48%;
+  }
+  .partner .partnerBOXS2 .partnerBox1 {
+    margin-bottom: 54px;
+  }
+  .partner .partnerBOXS2 .partnerBox2 {
+    order: 2;
+  }
+  .partner .partnerBOXS2 .partnerBox3 {
+    order: 1;
+  }
+  .partner .partnerBOXS2 .partnerBox4 {
+    order: 3;
+  }
+
+  main .ideas h2 {
+    font-size: 22px;
+  }
+
+  main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box1, main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box2, main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box3 {
+    padding: 0 18px;
+  }
+
+  footer {
+    padding: 36px 6% 0;
+  }
+
+  footer .by {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .MainManu {
+    padding: 20px 7%;
+  }
+
+  .MainManu header {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .MainManu header .Dream {
+    margin-bottom: 27px;
+  }
+
+  .MainManu header .Sing {
+    margin-bottom: 97px;
+    order: -1;
+    justify-content: center;
+  }
+
+  .MainManu .TextCenter h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+
+  .MainManu .TextCenter h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  main {
+    padding: 35px 3% 40px;
+  }
+
+  main h2 {
+    margin-bottom: 15px;
+  }
+
+  main .worksBOXS1 {
+    flex-wrap: wrap;
+  }
+
+  main .works .worksBOXS1 .worksBox1, main .works .worksBOXS1 .worksBox2, main .works .worksBOXS1 .worksBox3 {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 30% 9% 6%;
+  }
+  main .works .worksBOXS1 .worksBox2 {
+    padding: 28% 12% 10%;
+  }
+
+  .works .worksBox2 button {
+    margin-bottom: 42px;
+  }
+
+  main .partner {
+    padding: 0 5%;
+  }
+
+  main .partner .partnerBOXS2 {
+    flex-flow: wrap;
+    display: block;
+    padding: 0 20%;
+  }
+
+  main .partner {
+    margin-bottom: 35px;
+  }
+
+  .partner .partnerBOXS2 .partnerBox1, .partner .partnerBOXS2 .partnerBox2, .partner .partnerBOXS2 .partnerBox3, .partner .partnerBOXS2 .partnerBox4 {
+    width: 100%;
+  }
+  .partner .partnerBOXS2 .partnerBox1 {
+    margin-bottom: 16px;
+  }
+  .partner .partnerBOXS2 .partnerBox2 {
+    margin-bottom: 16px;
+  }
+  .partner .partnerBOXS2 .partnerBox3 {
+    margin-bottom: 16px;
+  }
+  .partner .partnerBOXS2 .partnerBox4 {
+    margin-bottom: 48px;
+  }
+
+  main .partner .svg1, main .partner .svg2, main .partner .svg3, main .partner .svg4 {
+    left: 66%;
+  }
+
+  main .partner button {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  main .ideas .ideasContainer .ideasBOX1, main .ideas .ideasContainer .ideasBOX2, main .ideas .ideasContainer .ideasBOX3 {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box1, main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box2, main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box3 {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box1 {
+    background-position-y: 70%;
+  }
+  main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box2 {
+    background-position-y: 48%;
+  }
+  main .ideas .ideasContainer .ideasBOX1 .ideasBOX1-Box3 {
+    background-position-y: 35%;
+  }
+
+  main .ideas .ideasContainer .ideasBOX2 .ideasBOX2-Box1, main .ideas .ideasContainer .ideasBOX2 .ideasBOX2-Box2 {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  main .ideas .ideasContainer .ideasBOX2 .ideasBOX2-Box1 {
+    background-position-y: 61%;
+  }
+  main .ideas .ideasContainer .ideasBOX2 .ideasBOX2-Box2 {
+    background-position-y: 48%;
+  }
+
+  main .ideas .ideasContainer .ideasBOX3 .ideasBOX3-Box1, main .ideas .ideasContainer .ideasBOX3 .ideasBOX3-Box2 {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  main .ideas .ideasContainer .ideasBOX3 .ideasBOX3-Box2 {
+    background-position-y: 10%;
+    margin-bottom: 25px;
+  }
+
+  main form h2 {
+    margin-bottom: 9px;
+  }
+
+  main form h3 {
+    margin-bottom: 15px;
+  }
+
+  main form input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  main form button {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  footer .areto {
+    display: block;
+    text-align: center;
+  }
+
+  footer .dreamshare {
+    margin-bottom: 13px;
+  }
+
+  footer .company {
+    margin-bottom: 1px;
+  }
+
+  footer .h4-mrt-11 {
+    margin-top: 0;
+  }
+
+  h4 {
+    padding-right: 10px;
+  }
+
+  footer .company .company_h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 6px;
+  }
+
+  footer .partners {
+    margin-bottom: 14px;
+  }
+
+  footer .by {
+    margin-left: 0;
+  }
+
+  footer h3 {
+    text-align: center;
+  }
+
+  footer {
+    padding: 19px 5% 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
