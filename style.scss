@@ -562,8 +562,15 @@ footer {
                     margin-bottom: 10px;
                     padding: 30% 9% 6% ;
                 }
+                .worksBox1 {
+                    background-position-y: 50%;
+                }
                 .worksBox2 {
                     padding: 28% 12% 10% ;
+                    background-position-y: 70%;
+                }
+                .worksBox3 {
+                    background-position-y: bottom;
                 }
             }
         }
